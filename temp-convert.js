@@ -4,7 +4,18 @@
  * * --Temperature Converter--  
  * * A helper function to quickly perform temperature conversions and return result as string.*/
 
-function tempConvert(temperature, currentScale, endScale) {
+function convertToCelsius(temp, units) {
+
+}
+
+
+
+
+
+
+
+//TODO Break this function down into smaller helper functions
+/*function tempConvert(temperature, currentScale, endScale) {
   let result;
   if(currentScale.toLowerCase() === 'f' || currentScale.toLowerCase() === 'fahrenheit') { //!>Conversions from Fahrenheit
     if(endScale.toLowerCase() === 'c' || currentScale.toLowerCase() === 'celsius') {
@@ -33,8 +44,8 @@ function tempConvert(temperature, currentScale, endScale) {
   //sub this return line for testing purposes
   return `${temperature.toFixed(2)}° ${currentScale[0].toUpperCase()} = ${result.toFixed(2)}° ${endScale[0].toUpperCase()}`;
   //return result.toFixed(2);
-}
+}*/
 
-module.exports = tempConvert;
-
+//module.exports = tempConvert;
+module.exports = convertToCelsius;
 
